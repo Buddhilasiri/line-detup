@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elephant Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h3>Elephant Detection Status</h3>
+    <p>Detections Today: <span id="detectionCount">0</span></p>
+    <p>Last Detection: <span id="lastDetection">-</span></p>
+    <div class="container">
+      <div class="map">
+        <img src="straight_line_sensors.png" alt="Map">
+        <div id="circleA" class="circle" title="Sensor A"></div>
+        <div id="circleB" class="circle" title="Sensor B"></div>
+        <div id="circleC" class="circle" title="Sensor C"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
